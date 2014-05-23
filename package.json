@@ -1,0 +1,19 @@
+{
+	"name": "bearcat-jstrace",
+	"version": "0.1.0",
+	"dependencies": {
+		"pomelo-logger": "0.1.x",
+		"jstrace": "0.2.x"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bearcatnode/bearcat-jstrace.git"
+	},
+	"keywords": [
+		"jstrace",
+		"trace",
+		"bearcat"
+	],
+	"author": "fantasyni",
+	"license": "MIT"
+}

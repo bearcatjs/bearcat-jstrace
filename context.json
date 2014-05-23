@@ -1,0 +1,12 @@
+{
+	"name": "bearcat-jstrace",
+	"beans": [{
+		"id": "jstraceAspect",
+		"func": "lib.aspect.jstraceAspect",
+		"aop": [{
+			"pointcut": "around:\\w+Service.*?",
+			"advice": "doJstrace",
+			"runtime": true
+		}]
+	}]
+}
