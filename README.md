@@ -1,5 +1,5 @@
 ## bearcat-jstrace
-[jstrace](https://github.com/jstrace/jstrace) for [bearcat](https://github.com/bearcatnode/bearcat)  
+[jstrace](https://github.com/jstrace/jstrace) support for [bearcat](https://github.com/bearcatnode/bearcat) based on bearcat AOP   
 
 ## Installation
 ```
