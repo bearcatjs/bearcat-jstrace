@@ -36,6 +36,13 @@ you can overload this pointcut by setting up context.json in your project like
 
 this changes to all POJOs' methods named with ***Dao*** will be traced by jstrace  
 
+you can set up trace target by add ***traceName*** in your trace target like  
+```
+HelloService.prototype.traceName = "HelloService";
+```
+
+***note***: since the best practise of AOP target method is a function with callback function, when it is a sync function with ***return***, end trace will not be emitted  
+
 ## Probes
 * bearcat:method:start
 * bearcat:method:end
